@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16sp"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="end"
+            android:text="@string/tel_number" />
+
+        <EditText
+            android:id="@+id/telNumb"
+            android:hint="@string/input_tel_number"
+            android:inputType="text" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+        />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_tel_no"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+        />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+    >
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/multiple_tel_numbers"
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+    >
+        <EditText
+            android:id="@+id/telNumbMultiple"
+            android:hint="@string/input_tel_number_multiple"
+            android:inputType="text|textMultiLine"
+            android:layout_height="180dp"
+        />
+    </TableRow>
+
+<!--    <TableRow android:gravity="center_horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_cancel"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/cancel"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:layout_marginBottom="20dp"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_save"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/save"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:layout_marginBottom="20dp"/>-->
+
+<!--    </TableRow>-->
+    <TableRow android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+        />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_tel_no"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+        />
+    </TableRow>
+
+</TableLayout>

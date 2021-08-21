@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">BgCallScr01</string>
-    <string name="title_activity_main">BgCallScr01</string>
+    <string name="app_name">BgCallScr</string>
+    <string name="title_activity_main">Call Screening</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -9,4 +9,19 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="telNumb"></string>
+    <string name="tel_number">Tel number:</string>
+    <string name="input_tel_number">Input tel number</string>
+    <string name="input_tel_number_multiple">Input list of tel nos, one per line</string>
+    <string name="cancel">Cancel</string>
+<!--    <string name="save_tel_no">Save Tel No.</string>-->
+<!--    <string name="save_tel_nos">Save Tel Nos</string>-->
+    <string name="save_tel_no">Save</string>
+    <string name="save_tel_nos">Save</string>
+    <string name="list_of_blocked_tel_numbers">List of blocked tel numbers</string>
+    <string name="enable">Enable</string>
+    <string name="update">Update</string>
+    <string name="multiple_tel_numbers">Multiple Tel Numbers</string>
+    <string name="save">Save</string>
 </resources>
