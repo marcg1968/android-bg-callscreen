@@ -121,6 +121,7 @@ public class PhoneCallStateListener extends PhoneStateListener {
         if (extras != null) {
             String stateAsStr = extras.getString(TelephonyManager.EXTRA_STATE);
             Log.w(TAG, 39 + " stateAsStr: " + stateAsStr);
+            if (stateAsStr==null) return; /*no incoming number available so break off here*/
             if (stateAsStr.equals(TelephonyManager.EXTRA_STATE_RINGING)) {
                 /* don't use the extras.getString(TelephonyManager.EXTRA_INCOMING_NUMBER) as phonenumber - it could hold an older value */
                 // String phoneNumber = extras.getString(TelephonyManager.EXTRA_INCOMING_NUMBER);
